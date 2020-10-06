@@ -1,0 +1,47 @@
+Variable types
+  variables are kind of like containers/elements used to store data. Then we can use the data by using the variable name
+
+  $ following the name of the variable
+  strings are in "" or ''
+  integers don't need "" or ''
+  
+  variables should be written in camelCase, 
+
+  concatenation with . between
+
+Math
+  works the same way as it does in JS
+
+Arrays
+  works the same way as it does in JS
+
+Associative Arrays
+  $someArray = ["key" => "value", "key2" => "value2"]
+  echo $someArray['key'] will give you "value"
+
+If Statements
+  works the same way as it does in JS
+
+Comparison and logical operators
+  works the same way as it does in JS
+
+Switch Statements
+
+For Loop
+  same as JS
+
+foreach
+  foreach($variables as $variable){
+
+  }
+
+  Global/Local variable scope:
+    outside of function: Global
+    inside of function: Local
+      unless you declare it as global $variable = 
+  
+  Constant
+    define("VARIABLENAME", "value")
+    newer way
+      const VARIABLE = "value"
+      works with all data types
